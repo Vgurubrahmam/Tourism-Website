@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.body {
+    font-family: Arial, sans-serif;
+    background-color: transparent;
+    margin: 0;
+    display: flex;
+    /* justify-content: center;
+    align-items: start; */
+    align-items: center;
+    height: auto;
+    /* margin-top: 0px;
+    margin-bottom: 0px; */
+}
+
+.search-container {
+    display: flex;
+    border-radius: 16px;
+    margin-top: 10px;
+}
+input:hover{
+    background-color: #6c6b70;
+    color: #fff;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 16px 0 0 16px;
+    outline: none;
+}
+
+button {
+
+    padding: 10px 15px;
+    background-color: #25b1cc;
+    color: #fff;
+    border: 0px solid #25b1cc;
+    border-radius: 0 16px 16px 0;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+/* tourist-cards */
+
+.cards {
+
+    text-align: start;
+    background-color: #fff;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e5eaf4;
+    border-radius: 16px;
+    transition: transform 0.5s ease-in-out;
+
+}
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(280deg);
+    }
+}
+
+.rotate {
+    animation: rotate 8s linear infinite;
+}
+
+
+.cards:hover {
+    transform: scale(1.05);
+}
+
+.card-image {
+    width: 130px;
+    
+    border-radius: 16px;
+
+
+}
+
+.name-images {
+    font-family: "roboto";
+    font-size: 15px;
+    margin-top: 10px;
+    align-items: start;
+    font-weight: bold;
+    /* margin-bottom: 0px;
+     */
+}
+
+.tourist-heading {
+    font-family: "roboto";
+    font-size: 28px;
+    color: #183b56;
+    font-weight: 700;
+}
+
+.bg-container {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/ocean.jpg");
+    /* height:auto; */
+    background-size: cover;
+}
+
+.tourism-card {
+    text-align: center;
+    background-color: white;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    padding: 5px;
+}
+
+.button {
+    color: white;
+    background-color: #25b1cc;
+    width: 138px;
+    height: 36px;
+    border-width: 0px;
+    border-radius: 20px;
+}
+
+.main-heading {
+    font-family: "Roboto";
+    font-size: 42px;
+    font-weight: 600;
+}
+
+.paragraph {
+    font-family: "Roboto";
+    font-size: 20px;
+}
+
+.favourite-places-bg-container {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/towerbg.png");
+    background-size: cover;
+    padding: 24px;
+}
+
+.favourite-places-heading {
+    color: white;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.favourite-place-card-container {
+    background-color: white;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 15px;
+}
+
+.favourite-place-card-heading {
+    color: #0f0e46;
+    font-family: "Roboto";
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.favourite-place-card-description {
+    color: #6c6b70;
+    font-family: "Roboto";
+    font-size: 15px;
+}
+
+.favourite-place-card-image {
+    width: 80px;
+    height: 100px;
+    margin-left: auto;
+}
+
+.favourite-place-card-text-container {
+    margin-right: 15px;
+}
+
+.detailed-view-bg-container {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/seabg.png");
+    height: 133vh;
+    background-size: cover;
+}
+
+.detailed-view-heading {
+    color: white;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.detailed-view-card-container {
+    background-color: white;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    margin: 24px;
+}
+
+.detailed-view-card-heading {
+    color: #0f0e46;
+    font-family: "Roboto";
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.detailed-view-card-description {
+    color: #6c6b70;
+    font-family: "Roboto";
+    font-size: 15px;
+}
+
+.detailed-view-card-text-container {
+    padding: 16px;
+}
